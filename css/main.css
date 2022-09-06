@@ -13,9 +13,10 @@ html{
     align-items: center;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 50vh;
+    justify-content: space-around;
+    gap: 20%;
     z-index:1 ;
+    padding: 0 10vh;
 }
 .header-menu.ativo{
     background-color: rgba(255, 255, 255, 1);
@@ -36,18 +37,20 @@ html{
     .header-menu ul{
         display: flex;
         flex-direction:row;
-        justify-content:space-around;
+        /* justify-content:space-between; */
+        gap: 20px;
         align-items: center;
         min-height: 10vh;
         max-width: 100%;
         width: 40%;
+        
     }
 
         .header-menu li{
             align-items: center;
             display: flex;
             flex-direction: column;
-            gap: 50px;
+            gap: 30px;
         }
 
         .header-menu li a{
@@ -208,7 +211,7 @@ header{
         justify-content: center;
         border-radius: 100%;
         border: 1vh solid white;
-        margin-top: 5%;
+        margin-top: 2%;
         box-shadow: 0 4px 4px 0 rgba(0,0,0,0.5);
     }
     .pages-skills{
@@ -224,7 +227,7 @@ header{
         justify-content: center;
         border-radius: 100%;
         border: 1vh solid white;
-        margin-top:2vh;
+        margin-top: 5%;
         box-shadow: 0 4px 4px 0 rgba(0,0,0,0.5);
     }
 
@@ -257,7 +260,7 @@ header{
         justify-content: center;
         border-radius: 100%;
         border: 1vh solid white;
-        margin-top:1vh;
+        margin-top:3%;
         box-shadow: 0 4px 4px 0 rgba(0,0,0,0.5);
     }
 
@@ -452,6 +455,10 @@ header{
                 width: 30%;
                 animation: jmeter 3s;
             }
+            .selenium {
+                width: 10%;
+                animation: selenium 3s;
+            }
 
             @keyframes html {
                 0%{
@@ -526,6 +533,14 @@ header{
                 }
             }
 
+            @keyframes selenium {
+                0%{
+                    width: 0%;
+                }
+                100%{
+                    width: 10%;
+                }
+            }
 
     .portfolio{
         width: 100%;
@@ -739,5 +754,5 @@ header{
         font-size: 3vh;
         text-align: justify;
         padding: 0 2vh;
-        background-color: aliceblue;
+        background-color: rgba(255, 255, 255, 1);
     }

@@ -1,7 +1,23 @@
 @import url(../css/main.css);
 @import url(../css/reset.css);
 
+@media  screen and (max-width: 1126px) {
+    .header-menu{
+        gap: 15%;
+        transition: all .5;
+    }
+}
+
 @media  screen and (max-width: 1083px) {
+    .header-menu{
+        gap: 10%;
+        transition: all .5;
+    }
+
+    .header-menu li a{
+        font-size: 2.5vh;
+    }
+
     .header-txt .nome{
         font-size: 4vh;
     }
@@ -30,12 +46,13 @@
     }
 
     .pages-about{
-        margin-top: 7%;
+        margin-top: 9%;
         max-width: 13vh;
         width:100%;
         min-height:13vh;
     }
     .pages-skills{
+        margin-top: 3%;
         max-width: 13vh;
         width:100%;
         min-height:13vh;
@@ -48,6 +65,7 @@
         min-height:13vh;
     }
     .pages-contato{
+        margin-top: 6%;
         max-width: 13vh;
         width:100%;
         min-height:13vh;
@@ -105,4 +123,31 @@
             font-size: 2vh;
             text-align: justify;
         }
+}
+
+@media screen and (max-width: 1031px){
+    
+    .header-menu li a{
+        font-size: 2.3vh;
+    }
+}
+
+@media screen and (max-width: 973px){
+
+    .header-menu ul{
+        gap:5px;
+        transition: all .5;
+    }
+}
+
+@media screen and (max-width: 746px){
+    .header-menu{
+        gap: 5%;
+        transition: all .5;
+    }
+
+    .header-menu ul{
+        gap:5px;
+        transition: all .5;
+    }
 }
