@@ -1,0 +1,108 @@
+@import url(../css/main.css);
+@import url(../css/reset.css);
+
+@media  screen and (max-width: 1083px) {
+    .header-txt .nome{
+        font-size: 4vh;
+    }
+
+    .header-txt .profissao1{
+        color: rgb(59, 59, 59);
+        font-size: 2vh;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .header-txt .profissao2{
+        color: rgb(59, 59, 59);
+        font-size: 2vh;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .header-txt .profissao3{
+        color: rgb(59, 59, 59);
+        font-size: 2vh;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .about-me{
+        height: 150vh;
+        transition: .3s;  
+    }
+
+    .pages-about{
+        margin-top: 7%;
+        max-width: 13vh;
+        width:100%;
+        min-height:13vh;
+    }
+    .pages-skills{
+        max-width: 13vh;
+        width:100%;
+        min-height:13vh;
+    }
+
+    .pages-portfolio{
+        margin-top: -20%;
+        max-width: 13vh;
+        width:100%;
+        min-height:13vh;
+    }
+    .pages-contato{
+        max-width: 13vh;
+        width:100%;
+        min-height:13vh;
+    }
+    .header-txt .nome{
+        color: rgb(75, 27, 191);
+        font-size: 5vh;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .header-txt .profissao1{
+        color: rgb(59, 59, 59);
+        font-size: 3vh;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .header-txt .profissao2{
+        color: rgb(59, 59, 59);
+        font-size: 3vh;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .header-txt .profissao3{
+        color: rgb(59, 59, 59);
+        font-size: 3vh;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    
+    .title h1{
+        font-size: 3vh;
+    }
+
+    .about-me-grid{
+        flex-direction: column;
+    }
+
+    .about-me-photo{
+        max-width: 100%;
+        width:40%;
+        min-height:30vh;
+    }
+
+        .photo{
+            max-width: 30vh;
+            width:100%;
+            min-height:30vh;
+        }
+        .about-me-text h3{
+            font-size: 3vh;
+        }
+
+        .about-me-text p{
+            font-size: 2vh;
+            text-align: justify;
+        }
+}
